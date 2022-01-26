@@ -1,11 +1,17 @@
 #!python3
 
+def getData(): 
+ f = open("data.csv", "r")
+ return str((f.read()))
+
+x = getData()
+print(x)
+
 """
 Create a function called getData()
 getData takes no input parameters
 return: file contents as a string
 
-"""
 def getData():
     return data
 
@@ -20,4 +26,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+"""
 
