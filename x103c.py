@@ -10,7 +10,6 @@ x = getData()
 index = x.index(input('Enter Index Item Number'))
 print(index)
 
-
 """
 You will need to search through the document and find information that is being searched for by the user.
 Search for the Equipment Item Number

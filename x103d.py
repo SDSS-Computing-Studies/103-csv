@@ -1,5 +1,7 @@
 #!python3
 
+
+
 """
 You will need to search through the document and find information that is being searched for by the user.
 Search for the Equipment Item Number
