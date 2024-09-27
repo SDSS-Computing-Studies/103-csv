@@ -1,11 +1,19 @@
 #!python3
 
+def getData(): 
+ a_file = open("data.csv", "r")
+ list_of_lists = [(line.strip()).split() for line in a_file]
+ a_file.close()
+ return str(list_of_lists)
+
+x = getData()
+print(x)
+
 """
 Create a function called getData()
 getData takes no input parameters
 return: file contents as a list of lists
 
-"""
 def getData():
     '''
     Function will read data.csv
@@ -25,3 +33,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+"""
